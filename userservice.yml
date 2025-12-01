@@ -6,7 +6,7 @@ spring:
     name: userservice
 
   datasource:
-    url: jdbc:mysql://localhost:3306/userdb
+    url: jdbc:mysql://localhost:3306/media_db
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -21,3 +21,4 @@ management:
     web:
       exposure:
         include: "*"
+
